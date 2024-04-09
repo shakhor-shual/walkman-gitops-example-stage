@@ -25,7 +25,7 @@ variable "network" {
 
 variable "ad_dc_tags" {
   description = "TAG for RDP access enable"
-  default     = ["ad_controller", "some_domain"]
+  default     = ["ad-controller", "some-domain"]
 }
 
 variable "source_ranges" {
